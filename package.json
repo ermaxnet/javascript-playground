@@ -1,0 +1,28 @@
+{
+  "name": "javascript-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine JASMINE_CONFIG_PATH=jasmine.json"
+  },
+  "author": "Max Eremin",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "babel-loader": "^8.0.0-beta.2",
+    "jasmine": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-babel-preprocessor": "^8.0.0-beta.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^3.0.0",
+    "watchify": "^3.11.0",
+    "webpack": "^4.5.0"
+  },
+  "dependencies": {
+    "karma-browserify": "^5.2.0"
+  }
+}
